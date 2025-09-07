@@ -61,18 +61,6 @@
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">Contact</a>
                         </li>
-                        <li class="nav-item ms-lg-3 mt-2 mt-lg-0 d-flex gap-2">
-                            <!-- View Resume -->
-                            <button type="button" class="btn btn-outline-success d-flex align-items-center"
-                                data-bs-toggle="modal" data-bs-target="#resumeModal">
-                                <i class="ri-eye-line me-1"></i> View
-                            </button>
-                            <!-- Download Resume -->
-                            <a href="pdf/VishalResume.pdf" class="btn btn-success d-flex align-items-center" download>
-                                <i class="ri-download-line me-1"></i> Download
-                            </a>
-                        </li>
-
                     </ul>
                 </div>
                 <div class="nav__toggle">
@@ -81,25 +69,6 @@
             </nav>
         </div>
     </header>
-
-    <!-- Resume Modal (Fullscreen on Mobile) -->
-    <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-sm-down">
-            <div class="modal-content bg-dark text-light">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="resumeModalLabel">My Resume</h5>
-                    <!-- Close Button -->
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
-                </div>
-                <div class="modal-body p-0" style="height:80vh;">
-                    <iframe src="pdf/VishalResume.pdf#toolbar=0&navpanes=0&scrollbar=0" style="width:100%; height:100%;"
-                        frameborder="0">
-                    </iframe>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--=================== main ====================-->
     <main class="main">
         <!--=================== Hero ====================-->
@@ -192,18 +161,18 @@
                                     <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
                                         Plotly</li>
                                     <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Power BI / Tableau</li>
+                                        Matplotlib</li>
                                 </ul>
                             </div>
                             <div class="skills__content">
-                                <h4 class="skills__subtitle">Database & Big Data</h4>
+                                <h4 class="skills__subtitle">Database</h4>
                                 <ul class="skills__list">
                                     <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
                                         PostgreSQL</li>
                                     <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
                                         MongoDB</li>
                                     <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Hadoop / Spark</li>
+                                        MySQL</li>
                                 </ul>
                             </div>
                         </div>
@@ -276,56 +245,50 @@
                     Services
                 </h2>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px;">
-                    <!-- Data Analysis -->
+                    <!-- Front-End Development -->
                     <div
                         style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
                         <div style="display: flex; justify-content: center; margin-bottom: 16px;">
-                            <i class="ri-bar-chart-fill" style="font-size: 40px; color: #4299e1;"></i>
+                            <i class="ri-layout-4-fill" style="font-size: 40px; color: #4299e1;"></i>
                         </div>
                         <h3
                             style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
-                            Data Analysis
+                            Front-End Development
                         </h3>
-                        <p style="color: #718096; text-align: center;">
-                            Extracting meaningful insights from complex datasets using statistical and computational
-                            techniques.
-                        </p>
+                        <p style="color: #718096; text-align: center;">Creating responsive and interactive user
+                            interfaces using modern web technologies.</p>
                     </div>
 
-                    <!-- Machine Learning -->
+                    <!-- UI/UX Design -->
                     <div
                         style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
                         <div style="display: flex; justify-content: center; margin-bottom: 16px;">
-                            <i class="ri-brain-fill" style="font-size: 40px; color: #9f7aea;"></i>
+                            <i class="ri-pen-nib-fill" style="font-size: 40px; color: #9f7aea;"></i>
                         </div>
                         <h3
                             style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
-                            Machine Learning
+                            UI/UX Design
                         </h3>
-                        <p style="color: #718096; text-align: center;">
-                            Building predictive models and algorithms to automate decision-making and optimize
-                            performance.
-                        </p>
+                        <p style="color: #718096; text-align: center;">Designing intuitive and visually appealing user
+                            experiences for web and mobile applications.</p>
                     </div>
 
-                    <!-- Data Visualization -->
+                    <!-- Full-Stack Projects -->
                     <div
                         style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
                         <div style="display: flex; justify-content: center; margin-bottom: 16px;">
-                            <i class="ri-pie-chart-fill" style="font-size: 40px; color: #48bb78;"></i>
+                            <i class="ri-code-s-slash-line" style="font-size: 40px; color: #48bb78;"></i>
                         </div>
                         <h3
                             style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
-                            Data Visualization
+                            Full-Stack Projects
                         </h3>
-                        <p style="color: #718096; text-align: center;">
-                            Designing interactive charts and dashboards to effectively communicate data-driven insights.
-                        </p>
+                        <p style="color: #718096; text-align: center;">Developing end-to-end web applications with both
+                            front-end and back-end functionalities.</p>
                     </div>
                 </div>
             </div>
         </section>
-
         <!--=================== Projects ====================-->
         <section id="project" class="section project">
             <div class="container">
